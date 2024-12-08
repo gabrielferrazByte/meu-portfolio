@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Gabriel Ferraz</title>
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link para o script JS externo -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Entre em Contato</h1>
+        <nav>
+            <ul>
+                <!-- Navegação entre as páginas do portfólio -->
+                <li><a href="index.html">Sobre Mim</a></li>
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Fale comigo</h2>
+            <!-- Texto de introdução para o formulário de contato -->
+            <p class="contato-central">Preencha o formulário abaixo e entrarei em contato.</p>
+            <form id="contact-form">
+                <!-- Campo para nome do usuário -->
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome" required>
+
+                <!-- Campo para e-mail do usuário -->
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+
+                <!-- Campo para mensagem do usuário -->
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+
+                <!-- Botão para enviar o formulário -->
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <!-- Rodapé -->
+        <p>&copy; 2024 Gabriel Ferraz Lima Freitas</p>
+    </footer>
+</body>
+</html>
